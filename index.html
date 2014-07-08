@@ -23,13 +23,23 @@
 	    font-weight:bold;
 	}
 
+        #catalog {
+            position: absolute;
+            bottom: 0;
+            margin: auto;
+        }
+
 	.label {
 	    background-color: rgba(256,256,256,0.10);
 	    font-family:sans;
 	    font-size:42px;
 	}
 
-	.info {
+	a, a:hover, a:visited {
+            text-decoration: none;
+            color: #ff103f;
+            font-family: sans;
+            font-weight: bold;
 	}
 
 	</style>
@@ -37,7 +47,10 @@
     <body>
 	<div id="index-content">
 	    <div class="label">montbretia</div>
-	    <p class="info">soon</p>
+            <p class="info">v1</p>
 	</div>
+        <div id="catalog">
+            <a href="./2014/07/01/01.html" title="sky fever, kalkium">1</a>
+        </div>
     </body>
 </html>
